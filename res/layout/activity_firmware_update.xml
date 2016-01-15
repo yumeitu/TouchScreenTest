@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+	<EditText 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:cursorVisible="false"
+	    android:editable="false"
+	    android:id="@+id/fw_state"
+	    android:text="@string/fw_state"
+	    />
+	<Button 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:id = "@+id/fw_choose_button"
+		android:text="@string/please_choose_one_firmware"
+		android:onClick="onClick"
+	    />  
+	<Button 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:id = "@+id/update_button"
+		android:text="@string/update_choose_fw"
+		android:onClick="onClick"
+	    />  
+	<Button 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:id = "@+id/fw_auto_update"
+		android:text="firmware update auto"
+		android:onClick="onClick"
+	    />     
+	    
+	
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+	
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+            <Button 
+            	android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:text="@string/main_node_operation_button"   
+        		android:onClick="onClick"  
+				android:id="@+id/node_operation_button"
+				/>
+            <Button 
+            	android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:text="@string/main_firmware_update_button"  
+        		android:onClick="onClick"  
+        		android:id="@+id/firmware_update_button"
+                />   
+            <Button 
+            	android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:text="@string/main_effect_adjust_button"  
+        		android:onClick="onClick"   
+        		android:id="@+id/effect_adjust_button"  
+                />
+            <Button 
+            	android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:text="@string/main_diff_rawdata_show_button"  
+        		android:onClick="onClick"  
+        		android:id="@+id/diff_rawdata_show_button"   
+                />
+           	<Button 
+            	android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:text="@string/product_config_button"  
+        		android:onClick="onClick"  
+        		android:id="@+id/product_config_button"   
+                />          
+			<ToggleButton 
+            	android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"        		 
+        		android:onClick="onClick"  
+        		android:id="@+id/keep_wake_button"   
+        		android:textOff="@string/keep_wake_button"
+				android:textOn="@string/keep_wake_button" 
+                />  
+           	<Button 
+            	android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:text="@string/exit_app_button"  
+        		android:onClick="onClick"  
+        		android:id="@+id/exit_app_button"   
+                />           	
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

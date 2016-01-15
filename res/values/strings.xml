@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">触屏调试工具</string>
+    
+    <string name="main_title">目录</string>
+    <string name="main_node_operation_button">节点查看</string>
+    <string name="main_firmware_update_button">固件升级</string>
+    <string name="main_effect_adjust_button">效果调试工具</string>
+    <string name="main_diff_rawdata_show_button">Diff/RawData图形显示</string>
+    <string name="product_config_button">项目配置</string>
+    <string name="keep_wake_button">屏幕常亮</string>
+    
+    <string name="exit_app_button">退出应用</string>
+    
+    <string name="node_opr_activity_name">触屏节点操作</string>
+	<string name="return_to_main">返回</string>
+	<string name="node_rw">节点读写</string>
+	<string name="fw_module_id">模组ID</string>
+	<string name="fw_version">固件版本</string>
+	<string name="log_switch">LOG开关</string>
+	<string name="gesture_switch">手势开关</string>
+	<string name="gesure_point">手势轨迹</string>
+	<string name="sensor_baseline">Sensor基准</string>
+	<string name="sensor_rx_tx">Sensor通道</string>
+	<string name="ts_is_calling">电话标记</string>
+	<string name="read">读</string>
+	<string name="write">写</string>
+	<string name="click_to_read">点击读取</string>
+	<string name="on">开</string>
+	<string name="off">关</string>
+	<string name="gesture_point">手势数据</string>
+	
+	<string name="diff_rawdata_show">差值显示</string>
+	<string name="diffdata2">差值2</string>
+	<string name="rawdata2">原始值2</string>
+	<string name="diffdata3">差值3</string>
+	<string name="rawdata3">原始值3</string>
+	<string name="return_to_upper">返回</string>
+	<string name="lock_mode">锁定模式</string>
+	<string name="flush_time">500ms</string>
+	<string name="size">SZ:4</string>
+		
+	<string name="product_config">项目配置</string>
+	
+	<string name="firmware_update">固件升级</string>
+	<string name="firmware_choose_table">固件列表</string>
+	<string name="update_choose_fw">升级选中固件</string>
+	<string name="please_choose_one_firmware">选择固件</string>
+	<string name="firmware_update_auto_test">固件自动升级测试</string>
+	<string name="fw_state">State:no opr</string>
+
+	
+</resources>

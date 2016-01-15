@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+      
+    <LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:orientation="horizontal" 
+    	android:id = "@+id/diff_raw_linearlayout"
+    	>
+		    
+		    <ScrollView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content" >
+
+			    <LinearLayout
+			    	android:layout_width="70dp"
+			    	android:layout_height="fill_parent"
+			    	android:orientation="vertical" 
+			    	android:id = "@+id/diff_raw_lindearlayout"
+			    	>
+					<Button 
+			 			android:layout_width="70dp"
+			   			android:layout_height="32dp"
+			   			android:text="Menu"
+			   			android:id="@+id/menu_button1"
+			   			android:onClick="onClick"
+			 		    />       			   
+			 		
+			    </LinearLayout>
+		    </ScrollView>
+		    
+		    <ScrollView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content" >
+
+			    <LinearLayout
+			    	android:layout_width="wrap_content"
+			    	android:layout_height="wrap_content"
+			    	android:orientation="vertical" 
+			    	android:id = "@+id/diff_raw_lindearlayouat"
+			    	>
+			    	<LinearLayout
+				    	android:layout_width="wrap_content"
+				    	android:layout_height="wrap_content"
+				    	android:orientation="horizontal" 
+				    	android:id = "@+id/diff_raw_lindearlasssyouat"
+			    		>
+				 		<TextView 
+				 		    android:layout_width="wrap_content"
+				    		android:layout_height="wrap_content"
+				    		android:text="日志开关:"
+				 		    />
+						<EditText
+						    android:layout_width="10dp"
+				    		android:layout_height="wrap_content"
+				    		
+						    />
+						<TextView 
+				 		    android:layout_width="wrap_content"
+				    		android:layout_height="wrap_content"
+				    		android:text="多余字节数:"
+				 		    />
+						<EditText
+						    android:layout_width="10dp"
+				    		android:layout_height="wrap_content"
+				    		
+						    />
+					</LinearLayout>
+					
+			    	<LinearLayout
+				    	android:layout_width="wrap_content"
+				    	android:layout_height="wrap_content"
+				    	android:orientation="horizontal" 
+				    	
+			    		>
+				 		<TextView 
+				 		    android:layout_width="wrap_content"
+				    		android:layout_height="wrap_content"
+				    		android:text="diff:"
+				 		    />
+						<EditText
+						    android:layout_width="10dp"
+				    		android:layout_height="wrap_content"
+				    		
+						    />
+						<TextView 
+				 		    android:layout_width="wrap_content"
+				    		android:layout_height="wrap_content"
+				    		android:text="多余字节数:"
+				 		    />
+						<EditText
+						    android:layout_width="10dp"
+				    		android:layout_height="wrap_content"
+				    		
+						    />
+					</LinearLayout>
+			    </LinearLayout>
+		    </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

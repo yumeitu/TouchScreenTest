@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    tools:context="${relativePackage}.${activityClass}" >
+    
+    <LinearLayout
+    	android:layout_width="wrap_content"
+   		android:layout_height="match_parent"
+   		android:background="#eeeeee"
+    	android:orientation="vertical" >
+    	 <Button 
+ 			android:layout_width="wrap_content"
+   			android:layout_height="wrap_content"
+   			android:text="@string/size"
+   			android:id="@+id/size_button"
+   			android:onClick="onClick"
+ 		    />    	
+    	 <Button 
+ 			android:layout_width="wrap_content"
+   			android:layout_height="wrap_content"
+   			android:text="@string/flush_time"
+   			android:id="@+id/flush_time_button"
+   			android:onClick="onClick"
+ 		    />
+ 		<Button 
+ 			android:layout_width="wrap_content"
+   			android:layout_height="wrap_content"
+   			android:text="@string/diffdata2"
+   			android:id="@+id/d2_diff_button"
+   			android:onClick="onClick"
+ 		    />
+ 		<Button 
+ 			android:layout_width="wrap_content"
+   			android:layout_height="wrap_content"
+   			android:text="@string/rawdata2"
+   			android:id="@+id/d2_raw_button"
+   			android:onClick="onClick"
+ 		    />
+ 		<Button 
+ 			android:layout_width="wrap_content"
+   			android:layout_height="wrap_content"
+   			android:text="@string/diffdata3"
+   			android:id="@+id/d3_diff_button"
+   			android:onClick="onClick"
+ 		    />
+ 		<Button 
+ 			android:layout_width="wrap_content"
+   			android:layout_height="wrap_content"
+   			android:text="@string/rawdata3"
+   			android:id="@+id/d3_raw_button"
+   			android:onClick="onClick"
+ 		    />
+ 		
+       	<ToggleButton 
+      		android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+   			android:textSize="12sp"
+   			android:id="@+id/lock_button"
+  			android:textOff="pause"
+		    android:textOn="run"
+   			android:checked="false"
+   			android:textColor="#ff0000"
+   			android:onClick="onClick"   			
+      			/> 		 
+ 		<Button 
+ 			android:layout_width="wrap_content"
+   			android:layout_height="wrap_content"
+   			android:text="Menu"
+   			android:id="@+id/menu_button"
+   			android:onClick="onClick"
+ 		    />       			   
+ 		<Button 
+ 			android:layout_width="wrap_content"
+   			android:layout_height="wrap_content"
+   			android:text="@string/return_to_upper"
+   			android:id="@+id/return_button"
+   			android:onClick="onClick"
+ 		    /> 	 		
+ 		   
+    </LinearLayout>
+    
+    <LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical" 
+    	android:id = "@+id/diff_raw_linearlayout"
+    	>
+		
+    </LinearLayout>
+
+</LinearLayout>
