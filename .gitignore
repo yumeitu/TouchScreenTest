@@ -1,0 +1,10 @@
+.classpath
+.cproject
+.project
+.settings/
+bin/
+gen/
+ic_launcher-web.png
+libs/android-support-v4.jar
+proguard-project.txt
+project.properties
