@@ -2,7 +2,8 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
 	<item android:title="aaaa"
 	    android:showAsAction="always|withText"
-	    android:icon="@drawable/ic_launcher">
+	    android:icon="@drawable/ic_launcher"
+		android:id="@+id/aaa">
 		<menu>
 	    	<item 
 	    	    android:title="bbbb"/>
@@ -10,5 +11,9 @@
 	    	    android:title="cccc"/>
 		</menu>    
 	</item>
+	<item 
+		android:title="dd"/>
+	<item 
+		android:title="ee"/>
 
 </menu>

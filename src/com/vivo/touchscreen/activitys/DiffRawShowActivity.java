@@ -3,6 +3,7 @@ package com.vivo.touchscreen.activitys;
 import java.nio.Buffer;
 import java.text.AttributedCharacterIterator.Attribute;
 import java.text.AttributedString;
+import java.util.zip.Inflater;
 
 import com.vivo.touchscreen.R;
 import com.vivo.touchscreen.handlers.DiffHandler;
@@ -22,6 +23,9 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
@@ -251,8 +255,26 @@ public class DiffRawShowActivity extends Activity {
 		}
 		buttonColorSet(view);
 	}
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		MenuInflater inflater = this.getMenuInflater();
+		inflater.inflate(R.menu.diff_raw_menu, menu);
+		
+		return true;
+		//return super.onCreateOptionsMenu(menu);
+	}
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		switch(item.getItemId()) {
+			case R.id.aaa :
+				QuickLog.shortToast(this, "aaa menu item");
+				break;
+		
+		}
+		return super.onOptionsItemSelected(item);
+	}
 
-
+	
 
 /*
 
