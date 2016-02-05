@@ -95,6 +95,11 @@ public class MainActivity extends Activity {
     				setKeepWake(true);
     			}
     			break;
+    		case R.id.gl_button:
+    			Intent glIntent = new Intent();
+    			glIntent.setClass(this, OpenGLActivity.class);
+    			this.startActivity(glIntent);
+    			break;
     		case R.id.exit_app_button :
     			this.finish();	
     			break;    			

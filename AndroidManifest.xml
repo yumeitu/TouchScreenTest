@@ -43,7 +43,10 @@
             android:name="com.vivo.touchscreen.activitys.FirmwareChooseActivity"
             android:label="@string/firmware_choose_table" >
         </activity>
-        
+        <activity 
+            android:name="com.vivo.touchscreen.activitys.OpenGLActivity"
+            android:label="@string/gl_lable" >
+        </activity>
     </application>
     
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>

@@ -12,6 +12,8 @@
     <string name="keep_wake_button">屏幕常亮</string>
     
     <string name="exit_app_button">退出应用</string>
+    <string name="gl_button">OpenGL</string>
+    <string name="gl_lable">OpenGL</string>
     
     <string name="node_opr_activity_name">触屏节点操作</string>
 	<string name="return_to_main">返回</string>

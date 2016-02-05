@@ -58,6 +58,13 @@
         		android:textOff="@string/keep_wake_button"
 				android:textOn="@string/keep_wake_button" 
                 />  
+			<Button 
+			    android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"        		 
+        		android:onClick="onClick"  
+        		android:id="@+id/gl_button"   
+			    android:text="@string/gl_button"
+			    />
            	<Button 
             	android:layout_width="fill_parent"
         		android:layout_height="wrap_content"
